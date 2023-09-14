@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="/style.css">
+    
+        
+    
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <br>
+    <section id="class">
+     <div>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button onclick="addTask()">Add</button>
+     </div>
+     <ul id="taskList">
+        <!-- Tasks will be added here dynamically -->
+     </ul>
+   </section>
+
+    <script>
+        // JavaScript code for managing tasks
+        function addTask() {
+            const taskInput = document.getElementById("taskInput");
+            const taskText = taskInput.value.trim();
+
+            if (taskText !== "") {
+                const taskList = document.getElementById("taskList");
+                const newTask = document.createElement("li");
+                newTask.innerHTML = `
+                    <input type="checkbox" onchange="completeTask(this)">
+                    ${taskText}
+                    <button onclick="deleteTask(this)">Delete</button>
+                `;
+                taskList.appendChild(newTask);
+                taskInput.value = "";
+            }
+        }
+
+        function completeTask(checkbox) {
+            const taskItem = checkbox.parentElement;
+            taskItem.classList.toggle("completed");
+        }
+
+        function deleteTask(button) {
+            const taskItem = button.parentElement;
+            taskItem.remove();
+        }
+    </script>
+</body>
+</html>

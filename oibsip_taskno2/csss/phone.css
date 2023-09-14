@@ -1,0 +1,118 @@
+#div2 p{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-left: 544px;
+    margin-right: 33px;
+    margin-top: -352px;
+    font-size: large;
+}
+#bottom p {
+    margin: -96px;
+    color: white;
+    margin-top: 10;
+    text-align: center;
+    padding: -21px;
+    margin-top: 107px;
+    margin-left: 113px;
+    margin-right: 111px;
+    font-size: large;
+    
+}
+@media (max-width:1024px){
+    #bottom p {
+        margin: 117px;
+        color: white;
+        margin-top: 10;
+        text-align: center;
+        padding: -21px;
+        margin-left: 113px;
+        margin-right: 111px;
+        font-size: large;
+        margin-bottom: -11px;
+        margin-top: 33px;
+    }
+    #div2 p {
+        
+        color: white;
+        text-align: left;
+        margin-left: 29px;
+        margin-right: 12px;
+        margin-top: 50px;
+        font-size: large;
+    }
+}
+@media (max-width:786px){
+    #div1 img {
+        justify-content: center;
+        padding: 27px;
+        margin-left: 160px;
+        margin-bottom: -31px;
+    }
+    #home{
+        flex-direction: column;
+    }
+  
+}
+@media (min-width:320px) and (max-width:786px){
+    #in p {
+        color: white;
+        margin-left: 10px;
+        text-align: left;
+        font-size: large;
+        margin-left: 12px;
+        margin-right: -83px;}
+
+    h1 {
+     text-align: center;
+     color: white;         
+     font-size: 47px;
+     padding: 27px;
+     border-bottom: 2px white solid;
+     margin-right: -143px;
+        }
+        #div1 img {
+            justify-content: center;
+            padding: 19px;
+            margin-left: -15px;
+            margin-bottom: -1px;
+        }
+        #div2 p {
+            color: white;
+            text-align: left;
+            margin-left: 12px;
+            margin-right: -73px;
+            margin-top: -3px;
+            font-size: large;
+        }
+        #bottom p {
+            margin: 117px;
+            color: white;
+            margin-top: 10;
+            text-align: left;
+            padding: -21px;
+            margin-left: 12px;
+            margin-right: -76px;
+            font-size: large;
+            margin-bottom: -11px;
+            margin-top: 33px;
+        }
+        footer {
+            background-color: white;
+            margin: 0px;
+            padding: 27px;
+            margin-bottom: 0px;
+            margin-top: 32px;
+            text-align: center;
+            margin-right: -143px;
+        }
+        body{
+            margin-right: 0px;
+        }
+  
+}
+@media (max-width:375px){
+   body {
+        margin-right: 40px;
+    }
+    }
