@@ -3,7 +3,7 @@
 
 ## **Overview**
 
-This repository contains the projects and assignments completed during my web development internship at Oasis Infobyte. The internship involved creating and deploying web applications, enhancing my skills in front-end and back-end development.
+This repository contains the projects and assignments completed during my web development internship at Oasis Infobyte. The internship involved creating and deploying web applications, enhancing my skills in front-end.
 
 ## **Technologies Used**
 
